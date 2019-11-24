@@ -17,15 +17,15 @@ html,body{
 	background-image: url(../images/ov6.png);
 	background-repeat: repeat;
 	color: #fff;
-	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-family: "楷体","宋体","黑体","Microsoft YaHei","Arial",sans-serif;
 
 	/*background: #020031;
 	background: -moz-linear-gradient(45deg,#020031 0,#6d3353 100%);
 	background: -webkit-gradient(linear,left bottom,right top,color-stop(0%,#020031),color-stop(100%,#6d3353));
-	 background: -webkit-linear-gradient(45deg,#020031 0,#6d3353 100%); 
+	 background: -webkit-linear-gradient(45deg,#020031 0,#6d3353 100%);
 	background: -o-linear-gradient(45deg,#020031 0,#6d3353 100%);
 	background: -ms-linear-gradient(45deg,#020031 0,#6d3353 100%);
-	 background: linear-gradient(45deg,#020031 0,#6d3353 100%); 
+	 background: linear-gradient(45deg,#020031 0,#6d3353 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#020031', endColorstr='#6d3353', GradientType=1);
 	-webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2),inset 0 -3px 7px rgba(0,0,0,.2);
 	-moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2),inset 0 -3px 7px rgba(0,0,0,.2);
@@ -64,6 +64,32 @@ html,body{
 	color:yellow;
 }
 
+.bian_name_left_head{
+	text-align: right;
+	padding: 0;
+	height: 148px;
+	/*line-height: 110px;*/
+	margin: 0;
+	font-size: 50px;
+	/*margin-left: 20px;*/
+	/*padding-top: 10px;*/
+}
+.bian_name_right_head{
+	text-align: left;
+	padding: 0;
+	height: 148px;
+	/*line-height: 110px;*/
+	margin: 0;
+	font-size: 50px;
+	/*padding-top: 10px;*/
+	/*margin-right: 20px;*/
+}
+
+.bian_name_left_head strong,.bian_name_right_head strong{
+	font-size: 70px;
+	color:yellow;
+}
+
 .daibiao_left{
 	/*margin-top: 10px;*/
 	margin-right: 170px;
@@ -75,6 +101,19 @@ html,body{
 	margin-left: 170px;
 	text-align: left;
 	font-size: 20px;
+}
+
+.daibiao_left_head{
+	/*margin-top: 10px;*/
+	margin-right: 170px;
+	text-align: right;
+	font-size: 36px;
+}
+.daibiao_right_head{
+	/*margin-top: 10px;*/
+	margin-left: 130px;
+	text-align: left;
+	font-size: 36px;
 }
 
 .bottom_tools{
@@ -104,41 +143,9 @@ html,body{
 	margin-top: 150px;
 }
 .margin-top-lg{
-	margin-top: 200px;
+	margin-top: 152px;
 }
 
 .hideVoice{
 	display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
